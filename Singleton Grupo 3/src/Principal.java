@@ -9,6 +9,8 @@ public class Principal {
 		casino.setNombre("Las Garzas");
 		
 		System.out.println(casino.toString());
+		
+		System.out.println("Hola mundo");
 
 	}
 
