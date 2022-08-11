@@ -1,10 +1,10 @@
 
 public class Casino {
 
-	private String nombre = "Maroñas";
+	private String nombre = "Maroï¿½as";
 	private Persona responsable;
 	private static Casino casino = new Casino();
-	
+		
 	private Casino() {}
 	
 	public static Casino createCasino() {
