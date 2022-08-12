@@ -21,13 +21,19 @@ public class Principal {
 		Slots slot_2 = new Slots ("The One Armed Bandit", TipoSlots.BOTONES);
 		Slots slot_3 = new Slots ("Book Of Ra", TipoSlots.PALANCA);
 		
-		
+		System.out.println("--------------------------------");
 		System.out.println(mesa_1.toString());
+		System.out.println("--------------------------------");
 		System.out.println(mesa_2.toString());
+		System.out.println("--------------------------------");
 		
+		System.out.println("--------------------------------");
 		System.out.println(slot_1.toString());
+		System.out.println("--------------------------------");
 		System.out.println(slot_2.toString());
+		System.out.println("--------------------------------");
 		System.out.println(slot_3.toString());
+		System.out.println("--------------------------------");
 
 
 	}
