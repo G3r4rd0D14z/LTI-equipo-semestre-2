@@ -1,10 +1,12 @@
 
 public class Casino {
 
-	private String nombre = "Maro�as";
+	private String nombre = "Maroñas";
 	private Persona responsable;
 	private static Casino casino = new Casino();
-		
+	private Mesa[] mesas = new Mesa[2];
+	private Slots[] slots = new Slots[8];
+	
 	private Casino() {}
 	
 	public static Casino createCasino() {
@@ -26,7 +28,7 @@ public class Casino {
 
 	public void setEncargado(Persona encargado) {
 		this.responsable = encargado;
-	}
+	}	
 	
 	public String toString() {
 		

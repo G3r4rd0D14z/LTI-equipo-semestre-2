@@ -10,7 +10,11 @@ public class Principal {
 		
 		System.out.println(casino.toString());
 		
-		System.out.println("Hola mundo");
+		System.out.println("Hola mundo :)");
+		
+		Mesa mesa = new Mesa("Nombre", 23,0,0);
+		
+		System.out.println(mesa.toString());
 
 	}
 
