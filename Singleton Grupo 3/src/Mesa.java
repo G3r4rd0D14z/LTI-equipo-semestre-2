@@ -1,4 +1,3 @@
-
 public class Mesa extends Juego{
 
 	private int metrosCuadrados;
@@ -11,7 +10,7 @@ public class Mesa extends Juego{
 		if(minimoJugadores > 1) {
 			this.minimoJugadores = minimoJugadores;			
 		}else {
-			System.out.println("Valor minimo. Se ingresa valor por defecto");
+			System.out.println("Valor minimo incorrecto. Se ingresa valor por defecto");
 			this.minimoJugadores = 2;
 		}
 		if(maximoJugadores > this.minimoJugadores) {
